@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Maven: commons-dbcp:commons-dbcp:1.2.2">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/commons-dbcp/commons-dbcp/1.2.2/commons-dbcp-1.2.2.jar!/" />
+      <root url="jar://D:/download/org.quickfixj-1.6.3/quickfixj-all-1.6.3.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/commons-dbcp/commons-dbcp/1.2.2/commons-dbcp-1.2.2-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/commons-dbcp/commons-dbcp/1.2.2/commons-dbcp-1.2.2-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
