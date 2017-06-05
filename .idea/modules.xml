@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+<<<<<<< HEAD
       <module fileurl="file://$PROJECT_DIR$/Trader.iml" filepath="$PROJECT_DIR$/Trader.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/cts-trader.iml" filepath="$PROJECT_DIR$/cts-trader.iml" />
+>>>>>>> d79af4f39754ccd4078aaf2f5aac7b3d5df32a68
     </modules>
   </component>
 </project>
