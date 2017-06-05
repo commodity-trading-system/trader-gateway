@@ -1,0 +1,87 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Bootstrap 实例 - 模态框（Modal）插件</title>
+    <link rel="stylesheet" href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<h2>创建模态框（Modal）</h2>
+<!-- 按钮触发模态框 -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+    开始演示模态框
+</button>
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    模态框（Modal）标题
+                </h4>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label class="control-label col-sm-4">Order Class</label>
+                    <div class="col-sm-4">
+                        <label class="checkbox-inline">
+                            <input type="checkbox" id="inlineCheckbox1" value="buy">Buy
+                        </label>
+                        <label class="checkbox-inline">
+                            <input type="checkbox" id="inlineCheckbox2" value="sell">Sell
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-4 control-label">Commodity</label>
+                    <div class="col-sm-8">
+                        <select class="form-control" id="commodity">
+                            <option name="s-apple">Apple</option>
+                            <option name="s-orange">Orange</option>
+                            <option name="s-banana">Banana</option>
+                            <option name="s-pear">Pear</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="period" class="col-sm-4 control-label">Period</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="period" placeholder="period">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="quantity" class="col-sm-4 control-label">Quantity</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="quantity" placeholder="quantity">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="broker" class="col-sm-4 control-label">Broker</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="broker" placeholder="broker">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="price" class="col-sm-4 control-label">Price</label>
+                    <div class="col-sm-8">
+                        <input type="text" class="form-control" id="price" placeholder="price">
+                    </div>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                </button>
+                <button type="button" class="btn btn-primary">
+                    提交更改
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+</body>
+</html>
